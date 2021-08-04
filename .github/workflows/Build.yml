@@ -10,7 +10,7 @@ jobs:
     name: test
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest]
         node-version: [lts/*]
 #         include:
 #           - name: Client
