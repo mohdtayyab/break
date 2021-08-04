@@ -6,8 +6,7 @@ on:
     branches: [master]
 
 jobs:
-  build:
-    name: test
+  client:
     strategy:
       matrix:
         os: [ubuntu-latest]        
